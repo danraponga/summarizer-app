@@ -11,3 +11,12 @@ Run the project:
 ```
 python -m src.main
 ```
+
+Then navigate to `http://127.0.0.1:8000/docs` and use /summarize endpoint
+
+**or**
+
+Make the request:
+
+ `curl -X POST "http://127.0.0.1:8000/summarize" -H "Content-Type: application/json" -d '{"text": "<Your text here>"}'`
+
